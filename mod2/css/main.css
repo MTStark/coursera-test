@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.one,.two,.three {
+    width: 30%;
+    float: left;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 0 20px;
+}
+
+.foodName {
+    float: right;
+    padding: 3px 15px;
+    font-weight: bold;
+    font-size: 1.25em;
+    border: 1px solid black;
+}
+
+.one .foodName{
+    background-color: pink;
+}
+
+.two .foodName {
+    background-color: brown;
+}
+
+.three .foodName {
+    background-color: yellow;
+}
+
+p {
+    clear: right;
+}
