@@ -1,0 +1,29 @@
+.glyphicon{
+    margin-right: 5px;
+}
+
+.navbar{
+    background: url(../images/brand-logo2.jpg) repeat-x;
+    color: aliceblue;
+}
+
+.navbar-header .brand-logo {
+    margin: 0;
+    padding: 0;
+   position: relative;
+   top: -15px;
+   left: 15px;
+}
+
+.photo-show {
+    width: 100%;
+    height: 300px;
+    margin: auto 50px;
+    border: 1px solid black;
+}
+
+#mian-content .row {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
